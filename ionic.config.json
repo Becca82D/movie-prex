@@ -1,0 +1,8 @@
+{
+  "name": "MoviePrex",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "c08a27f7"
+}
