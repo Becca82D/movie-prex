@@ -7,14 +7,16 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { LoginPageRoutingModule } from './login-routing.module';
 
+import { InputModule } from '../components/input/input.module';
+
 @NgModule({
   imports: [
-    IonicModule,
     CommonModule,
     FormsModule,
-    ExploreContainerComponentModule,
-    LoginPageRoutingModule
+    IonicModule,
+    InputModule,
+    LoginPageRoutingModule,
   ],
-  declarations: [LoginPage]
+  declarations: [LoginPage],
 })
 export class LoginPageModule {}
