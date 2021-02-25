@@ -5,7 +5,6 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
@@ -13,7 +12,69 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name=""></app-explore-container>
+  <ion-content [fullscreen]="true">
+    
+    <ion-button routerLink="/tabs/movies" expand="block" shape="round">Movie Prex</ion-button>
+ 
+  <ion-slides [options]="option" class="ion-margin-top">
+    
+    
+    <ion-slide>
+      <ion-card>
+        <img src="assets/images/accion/image1.jpg">
+      </ion-card>
+    </ion-slide>
+    
+    <ion-slide>
+      <ion-card>
+        <img src="assets/images/adventure/image1.jpg">
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/images/animation/image1.jpg">
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/images/comedy/image1.jpg">
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/images/crime/image1.jpg">
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/images/drama/image1.jpg">
+      </ion-card>
+    </ion-slide>
+    
+    <ion-slide>
+      <ion-card>
+        <img src="assets/images/fantasy/image1.jpg">
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/images/mistery/image1.jpg">
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/images/romance/image1.jpg">
+      </ion-card>
+    </ion-slide>
+
+  </ion-slides>
+
   
 </ion-content>
 

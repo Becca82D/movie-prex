@@ -1,0 +1,47 @@
+ion-toolbar {
+    --background: #524f4f;
+  
+
+  }
+
+  ion-button {
+    margin-top: 35px;
+    height: 60px;
+    width: 80%;
+    padding-left: 70px;
+   
+    font-size: 20px;
+    text-transform: initial;
+    border-radius: 40px;
+    box-shadow: 1px 8px 8px 0px rgba(0, 0, 0, 0.05);
+    --box-shadow: none;
+  }
+
+  
+  ion-card {
+    width: 80%;
+    height: 400px;
+    box-shadow: none;
+    border-radius: 30px;
+    
+    img {
+        object-fit: cover;
+        width: 95%;
+        transform: scale(1.1, 1.1) rotate(1deg);
+        transition: 600ms all ease-in-out;
+    }
+  }
+
+.swiper-slide-active {
+    transform: scale(1.05, 1.05);
+
+    ion-card {
+        img {
+            transform: scale(1, 1);
+        }
+    }
+}
+
+.swiper-slide {
+    transition: 400ms all ease-in-out;
+}
