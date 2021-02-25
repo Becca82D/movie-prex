@@ -7,6 +7,7 @@ import { HomePage } from './home.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import { InputModule } from '../components/input/input.module';
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import { HomePageRoutingModule } from './home-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
+    InputModule,
     HomePageRoutingModule
   ],
   declarations: [HomePage]
