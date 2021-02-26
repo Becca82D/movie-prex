@@ -1,0 +1,21 @@
+ion-toolbar {
+  --background: #524f4f;
+
+  ion-button {
+    text-transform: initial;
+    font-size: 17px;
+  }
+}
+
+ion-card {
+  width: auto;
+  box-shadow: none;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  img {
+      object-fit: cover;
+      width: auto;
+
+  }
+}

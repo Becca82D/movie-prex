@@ -23,6 +23,18 @@ ion-content {
     }
   
   }
+
+  ion-button {
+    margin-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 48px;
+    font-size: 18px;
+    text-transform: initial;
+    border-radius: 50px;
+    box-shadow: 1px 8px 8px 0px rgba(0, 0, 0, 0.05);
+    --box-shadow: none;
+  }
   
 ion-card {
     background-color: rgb(80, 79, 79);

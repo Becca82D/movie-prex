@@ -26,6 +26,14 @@ const routes: Routes = [
         loadChildren: () => import('../movies/movies.module').then(m => m.MoviesPageModule)
       },
       {
+        path: 'cards',
+        loadChildren: () => import('../cards/cards.module').then(m => m.CardsPageModule)
+      },
+      {
+        path: 'cardsAmin',
+        loadChildren: () => import('../cardsAnim/cardsAnim.module').then( m => m.CardsAnimPageModule)
+      },
+      {
         path: '',
         redirectTo: '/tabs/login',
         pathMatch: 'full'
