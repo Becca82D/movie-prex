@@ -1,6 +1,6 @@
-# Prueba PREX
+# Movie App
 
-Primera vez que utilizo este framework  
+Primera vez que utilizo este framework Ionic  
 
 ## Screenshots
 
