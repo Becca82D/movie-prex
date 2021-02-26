@@ -23,13 +23,13 @@ Primera vez que utilizo este framework
 
 ## Installation
 
-```
+
 Clone this repository, run this command to install all needed dependencies.
-```sh
+
 npm install
-```
+
 After installing the needed dependencies you are done, run this command to launch app on browser.
-```sh
+
 ionic serve
-```
+
 
